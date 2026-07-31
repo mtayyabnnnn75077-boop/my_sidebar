@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+.sidebar{
+    position:fixed;
+    left:0;
+    top:0;
+    width:260px;
+    height:100vh;
+    background:#111827;
+    padding:30px 20px;
+}
+
+.logo{
+    text-align:center;
+    color:#fff;
+    margin-bottom:40px;
+}
+
+.logo h2{
+    font-size:26px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    margin:15px 0;
+}
+
+.sidebar ul li a{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    text-decoration:none;
+    color:#d1d5db;
+    padding:15px;
+    border-radius:10px;
+    transition:.3s;
+    font-size:17px;
+}
+
+.sidebar ul li a i{
+    width:20px;
+    text-align:center;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li.active a{
+    background:#2563eb;
+    color:#fff;
+    transform:translateX(6px);
+}
+</style>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Sidebar</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+
+    <div class="logo">
+        <h2>MyPortfolio</h2>
+    </div>
+
+    <ul>
+        <li class="active">
+            <a href="#">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <i class="fas fa-code"></i>
+                <span>Services</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <i class="fas fa-briefcase"></i>
+                <span>Portfolio</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+</body>
+</html>
+    
+</body>
+</html>
